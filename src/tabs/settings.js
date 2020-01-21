@@ -13,7 +13,7 @@ const SettingsTab = createStackNavigator(
       path: '/',
       navigationOptions: ({ navigation }) => ({
         title: 'Settings',
-        headerLeft: (
+        headerLeft: () => (
           <Icon
             name="menu"
             size={30}

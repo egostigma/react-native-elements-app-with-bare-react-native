@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "react-native-elements-app",
-    "slug": "react-native-elements-app",
-    "description": "A demo app for React Native Elements UI Library",
+    "name": "React Native Elements App with bare React Native",
+    "slug": "react-native-elements-app-with-bare-react-native",
+    "description": "A demo app for React Native Elements UI Library with bare React Native support",
     "privacy": "public",
-    "sdkVersion": "34.0.0",
+    "sdkVersion": "36.0.0",
     "platforms": ["web"],
-    "version": "1.1.0",
+    "version": "1.2.0",
     "primaryColor": "#cccccc",
     "web": {
-      "publicPath": "/react-native-elements-app/"
+      "publicPath": "/react-native-elements-app-with-bare-react-native/"
     }
   }
 }

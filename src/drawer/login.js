@@ -11,7 +11,7 @@ const LoginDrawerItem = createStackNavigator({
     screen: Login,
     navigationOptions: ({ navigation }) => ({
       title: 'Login',
-      headerLeft: (
+      headerLeft: () => (
         <Icon
           name="menu"
           size={30}

@@ -20,7 +20,7 @@ const ProfileTab = createStackNavigator(
           backgroundColor: 'rgba(47,44,60,1)',
           borderBottomWidth: 0,
         },
-        headerLeft: (
+        headerLeft: () => (
           <Icon
             name="menu"
             size={30}

@@ -12,7 +12,7 @@ const RatingsDrawerItem = createStackNavigator({
 
     navigationOptions: ({ navigation }) => ({
       title: 'Ratings',
-      headerLeft: (
+      headerLeft: () => (
         <Icon
           name="menu"
           size={30}

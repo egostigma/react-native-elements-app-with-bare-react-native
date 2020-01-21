@@ -11,7 +11,7 @@ const PricingDrawerItem = createStackNavigator({
     screen: Pricing,
     navigationOptions: ({ navigation }) => ({
       title: 'Pricing',
-      headerLeft: (
+      headerLeft: () => (
         <Icon
           name="menu"
           size={30}

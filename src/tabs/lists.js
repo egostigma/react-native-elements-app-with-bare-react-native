@@ -18,7 +18,7 @@ const ListsTab = createStackNavigator(
       path: '/',
       navigationOptions: ({ navigation }) => ({
         title: 'Lists',
-        headerLeft: (
+        headerLeft: () => (
           <Icon
             name="menu"
             size={30}

@@ -1,1 +1,1 @@
-export const LinearGradient = undefined;
+export { LinearGradient } from 'expo-linear-gradient';

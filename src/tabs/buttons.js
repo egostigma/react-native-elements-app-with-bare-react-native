@@ -24,7 +24,7 @@ const ButtonsTab = createStackNavigator({
     path: '/',
     navigationOptions: ({ navigation }) => ({
       title: 'Buttons',
-      headerLeft: (
+      headerLeft: () => (
         <Icon
           name="menu"
           size={30}

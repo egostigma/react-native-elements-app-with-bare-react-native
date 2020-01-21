@@ -23,7 +23,7 @@ const InputTab = createStackNavigator({
     path: '/',
     navigationOptions: ({ navigation }) => ({
       title: 'Input',
-      headerLeft: (
+      headerLeft: () => (
         <Icon
           name="menu"
           size={30}

@@ -16,7 +16,7 @@ const FontsDrawerItem = createStackNavigator(
           borderBottomWidth: 0,
           backgroundColor: '#f5f5f5',
         },
-        headerLeft: (
+        headerLeft: () => (
           <Icon
             name="menu"
             size={30}

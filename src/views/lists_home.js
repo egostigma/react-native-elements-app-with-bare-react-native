@@ -174,8 +174,8 @@ const Icons = () => {
             key={i}
             linearGradientProps={{
               colors: l.linearGradientColors,
-              start: [1, 0],
-              end: [0.2, 0],
+              start: { x: 1, y: 0 },
+              end: { x: 0.2, y: 0 },
             }}
             ViewComponent={LinearGradient}
             title={l.name}

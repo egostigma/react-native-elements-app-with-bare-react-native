@@ -9,7 +9,7 @@ const PlaygroundDrawerItem = createStackNavigator({
     screen: Playground,
     navigationOptions: ({ navigation }) => ({
       title: 'Playground',
-      headerLeft: (
+      headerLeft: () => (
         <Icon
           name="menu"
           size={30}

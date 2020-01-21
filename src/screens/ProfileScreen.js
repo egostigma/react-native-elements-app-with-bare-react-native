@@ -266,8 +266,8 @@ export default class LoginScreen1 extends Component {
               }}
               linearGradientProps={{
                 colors: ['rgba(214,116,112,1)', 'rgba(233,174,87,1)'],
-                start: [1, 0],
-                end: [0.2, 0],
+                start: { x: 1, y: 0 },
+                end: { x: 0.2, y: 0 },
               }}
               ViewComponent={LinearGradient}
               title="Message Theresa"
